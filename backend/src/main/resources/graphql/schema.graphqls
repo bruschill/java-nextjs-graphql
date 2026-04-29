@@ -1,0 +1,10 @@
+type Query {
+  hello(name: String): String!
+  me: Viewer!
+}
+
+type Viewer {
+  username: String!
+  authenticated: Boolean!
+  roles: [String!]!
+}

@@ -1,0 +1,28 @@
+.DS_Store
+
+# Java / Gradle
+backend/.gradle/
+backend/build/
+backend/out/
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Env files
+/.env
+/.env.*
+frontend/.env.local
+frontend/.env
+frontend/.env.*.local
+
+# Logs
+*.log
+
+# Test coverage
+coverage/
+
+# IDE
+.idea/
+.vscode/
